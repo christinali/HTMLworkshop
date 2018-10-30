@@ -1,8 +1,31 @@
+/* Comments in CSS files are denoted differently!*/
+
+/* This CSS file, or "style sheet", is used to style ANY of your different HTML tags! You can specify things like centering text, font, color, margins, anything!*/
+
 body {
-    background-color: lightblue;
+    background-color: lightpink;
 }
 
 h1 {
     color: navy;
-    margin-left: 20px;
+    margin-left: 20px; /*this line moves everything in this tag 20 pixels over from the left!*/
+}
+
+h2 {
+	color: darkgrey;
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+div {
+	width: 6000px;
+	height: 6000px;
+	background-image: url("/images/womenintech.jpg");
+	background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+RandomTagName {
+	margin: 100px;
+	background-color: aqua;
 }
