@@ -1,0 +1,41 @@
+/* This is your css file that helps to style your webpage. Look through the file and 
+    find other comments to change the desing of your website!*/ 
+
+/* This is how you create a comment in css! */ 
+
+/* "body" refers to the element that was in between our <body></body> tags in our html file*/ 
+/* In this case, it's the "body" of the webpage */ 
+body{
+    /* TRY: change the background color by replacing "powderblue" with a different color! */
+    background-color: powderblue;
+}
+
+/* Specify the styling for a certain class of elements using fomrat: ".[class]" */
+/* Here we are saying what the styling for the class "title" should be */
+.title{
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+p{
+    color: purple; 
+}
+
+/* Specify the styling for a certain element with a specific id using format: "#[id]" */
+/* In this case, we are giving a color to the element in our html file where id="basicInfo" */
+#basicInfo{
+    /*TRY: chaning the color of the basicInfo element*/
+    color: green;
+}
+
+/* TRY: going to your HTML file, and changing <ul class="a"> to <ul class="b"> and see what happens */
+ul.a{
+    list-style-type: square;
+}
+
+ul.b{
+    list-style-type: circle;
+}
+
